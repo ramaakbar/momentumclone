@@ -11,6 +11,7 @@ body {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 100%;
+
     background-image: url(../assets/Rocky_Cliffs_Sea_View_Background-325.jpg);
     background-repeat: no-repeat;
 
@@ -18,9 +19,18 @@ body {
         width: 100%;
         margin-top: 50%;
         position: absolute;
-        font-size: 2rem;
+
         font-weight: bold;
         text-align: center;
+
+        #clock {
+            font-size: 5rem;
+        }
+
+        #when {
+            font-size: 2rem;
+        }
+
 
     }
 
@@ -36,7 +46,36 @@ body {
 
         .wrapper {
             margin-top: 15%;
-            font-size: 3rem;
+
+
+            #clock {
+                font-size: 100px;
+            }
+
+            #when {
+                font-size: 40px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+    body {
+        background-size: 100%;
+
+
+        .wrapper {
+            margin-top: 15%;
+
+
+            #clock {
+                font-size: 100px;
+            }
+
+            #when {
+                font-size: 40px;
+            }
         }
     }
 

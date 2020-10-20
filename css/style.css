@@ -20,9 +20,16 @@ body .wrapper {
   width: 100%;
   margin-top: 50%;
   position: absolute;
-  font-size: 2rem;
   font-weight: bold;
   text-align: center;
+}
+
+body .wrapper #clock {
+  font-size: 5rem;
+}
+
+body .wrapper #when {
+  font-size: 2rem;
 }
 
 @media only screen and (min-width: 1020px) {
@@ -31,7 +38,27 @@ body .wrapper {
   }
   body .wrapper {
     margin-top: 15%;
-    font-size: 3rem;
+  }
+  body .wrapper #clock {
+    font-size: 100px;
+  }
+  body .wrapper #when {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  body {
+    background-size: 100%;
+  }
+  body .wrapper {
+    margin-top: 15%;
+  }
+  body .wrapper #clock {
+    font-size: 100px;
+  }
+  body .wrapper #when {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
