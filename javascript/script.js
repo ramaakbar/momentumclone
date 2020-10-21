@@ -10,11 +10,11 @@ function realtimeClock() {
     var time;
     if (hours < 12) {
         time = "morning";
-    } else if (hours > 12) {
+    } else if (hours < 16) {
         time = "afternoon";
-    } else if (hours > 4) {
+    } else if (hours < 18) {
         time = "evening";
-    } else if (hours > 7) {
+    } else if (hours < 24) {
         time = "night";
     }
 
